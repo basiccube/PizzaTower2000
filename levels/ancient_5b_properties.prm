@@ -1,0 +1,67 @@
+if (room == obj_room.ancient_5b)
+{
+ancient_5b_obj_wall101266.image_xscale = 13
+ancient_5b_obj_wall101266.image_yscale = 3
+ancient_5b_obj_wall101267.image_xscale = 90
+ancient_5b_obj_wall101267.image_yscale = 2
+ancient_5b_obj_wall101268.image_xscale = 8
+ancient_5b_obj_wall101268.image_yscale = 8.00
+ancient_5b_obj_wall101269.image_xscale = 84
+ancient_5b_obj_wall101269.image_yscale = 2
+ancient_5b_obj_hallwayright101270.image_xscale = 2
+ancient_5b_obj_hallwayright101270.image_yscale = 2.00
+ancient_5b_obj_hallwayright101270.targetRoom = obj_room.ancient_5
+ancient_5b_obj_doorC101271.image_xscale = 1.00
+ancient_5b_obj_doorC101271.image_yscale = 1.00
+ancient_5b_obj_wall101272.image_xscale = 2
+ancient_5b_obj_wall101272.image_yscale = 16
+ancient_5b_obj_slopeleft101273.image_xscale = 3
+ancient_5b_obj_slopeleft101273.image_yscale = 3
+ancient_5b_obj_wall101274.image_xscale = 5
+ancient_5b_obj_wall101274.image_yscale = 4
+ancient_5b_obj_platform101275.image_xscale = 2
+ancient_5b_obj_platform101275.image_yscale = 1.00
+ancient_5b_obj_platform101276.image_xscale = 2
+ancient_5b_obj_platform101276.image_yscale = 1.00
+ancient_5b_obj_wall101277.image_xscale = 11.00
+ancient_5b_obj_wall101277.image_yscale = 2
+ancient_5b_obj_slopeleft101278.image_xscale = 2
+ancient_5b_obj_slopeleft101278.image_yscale = 2
+ancient_5b_obj_wall101279.image_xscale = 11.00
+ancient_5b_obj_wall101279.image_yscale = 2
+ancient_5b_obj_slopeleft101280.image_xscale = 2
+ancient_5b_obj_slopeleft101280.image_yscale = 2
+ancient_5b_obj_collect101281.image_xscale = 1.00
+ancient_5b_obj_collect101281.image_yscale = 1.00
+ancient_5b_obj_collect101282.image_xscale = 1.00
+ancient_5b_obj_collect101282.image_yscale = 1.00
+ancient_5b_obj_collect101283.image_xscale = 1.00
+ancient_5b_obj_collect101283.image_yscale = 1.00
+ancient_5b_obj_collect101284.image_xscale = 1.00
+ancient_5b_obj_collect101284.image_yscale = 1.00
+ancient_5b_obj_forknight101285.image_xscale = 1.00
+ancient_5b_obj_forknight101285.image_yscale = 1.00
+ancient_5b_obj_forknight101286.image_xscale = 1.00
+ancient_5b_obj_forknight101286.image_yscale = 1.00
+ancient_5b_obj_spitcheese101287.image_xscale = 1.00
+ancient_5b_obj_spitcheese101287.image_yscale = 1.00
+ancient_5b_obj_destroyable2101288.image_xscale = 1.00
+ancient_5b_obj_destroyable2101288.image_yscale = 1.00
+ancient_5b_obj_destroyable2101289.image_xscale = 1.00
+ancient_5b_obj_destroyable2101289.image_yscale = 1.00
+ancient_5b_obj_destroyable2101290.image_xscale = 1.00
+ancient_5b_obj_destroyable2101290.image_yscale = 1.00
+ancient_5b_obj_destroyable2101291.image_xscale = 1.00
+ancient_5b_obj_destroyable2101291.image_yscale = 1.00
+ancient_5b_obj_destroyable3101292.image_xscale = 1.00
+ancient_5b_obj_destroyable3101292.image_yscale = 1.00
+ancient_5b_obj_door101293.image_xscale = 1.00
+ancient_5b_obj_door101293.image_yscale = 1.00
+ancient_5b_obj_door101293.targetRoom = obj_room.ancient_5c
+ancient_5b_obj_doorE101294.image_xscale = 1.00
+ancient_5b_obj_doorE101294.image_yscale = 1.00
+if (!global.panic)
+{
+obj_music.currentlyplaying = ds_list_find_value(global.musicind, ds_list_find_index(global.music, 'mu_ancient'))
+}
+}

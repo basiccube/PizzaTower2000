@@ -1,0 +1,9 @@
+*.exe
+*.gb1
+*.gb2
+saveData.ini
+
+# C++ Builder stuff.
+*.ddp
+*.obj
+*.[~]*

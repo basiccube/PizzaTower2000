@@ -1,0 +1,40 @@
+if (room == obj_room.hub_1)
+{
+hub_1_obj_wall103562.image_xscale = 33
+hub_1_obj_wall103562.image_yscale = 3
+hub_1_obj_wall103563.image_xscale = 2
+hub_1_obj_wall103563.image_yscale = 20
+hub_1_obj_wall103564.image_xscale = 2
+hub_1_obj_wall103564.image_yscale = 20
+hub_1_obj_wall103565.image_xscale = 37
+hub_1_obj_wall103565.image_yscale = 2
+hub_1_obj_wall103566.image_xscale = 11
+hub_1_obj_wall103566.image_yscale = 2.00
+hub_1_obj_door103567.image_xscale = 1.00
+hub_1_obj_door103567.image_yscale = 1.00
+hub_1_obj_door103567.targetRoom = Titlescreen
+hub_1_obj_doorB103568.image_xscale = 1.00
+hub_1_obj_doorB103568.image_yscale = 1.00
+hub_1_obj_startgate103569.image_xscale = 1.00
+hub_1_obj_startgate103569.image_yscale = 1.00
+hub_1_obj_startgate103569.targetRoom = obj_room.ancient_1
+hub_1_obj_startgate103569.level = 'ancient'
+hub_1_obj_wall103570.image_xscale = 10.00
+hub_1_obj_wall103570.image_yscale = 13
+hub_1_obj_platform103571.image_xscale = 3
+hub_1_obj_platform103571.image_yscale = 1.00
+hub_1_obj_ladder103572.image_xscale = 1.00
+hub_1_obj_ladder103572.image_yscale = 7
+hub_1_obj_roomdoor103573.image_xscale = 1.00
+hub_1_obj_roomdoor103573.image_yscale = 1.00
+hub_1_obj_wall103657.image_xscale = 9
+hub_1_obj_wall103657.image_yscale = 3
+hub_1_obj_startgate103798.image_xscale = 1
+hub_1_obj_startgate103798.image_yscale = 1
+hub_1_obj_startgate103798.targetRoom = obj_room.pinball_1
+hub_1_obj_startgate103798.level = 'pinball'
+if (!global.panic)
+{
+obj_music.currentlyplaying = ds_list_find_value(global.musicind, ds_list_find_index(global.music, 'mu_hub'))
+}
+}

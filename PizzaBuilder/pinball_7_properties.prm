@@ -1,0 +1,74 @@
+if (room == obj_room.pinball_7)
+{
+pinball_7_obj_wall105831.image_xscale = 27
+pinball_7_obj_wall105831.image_yscale = 3
+pinball_7_obj_wall105832.image_xscale = 14.00
+pinball_7_obj_wall105832.image_yscale = 9
+pinball_7_obj_wall105833.image_xscale = 18
+pinball_7_obj_wall105833.image_yscale = 6
+pinball_7_obj_hallwayleft105834.image_xscale = 2
+pinball_7_obj_hallwayleft105834.image_yscale = 2
+pinball_7_obj_hallwayleft105834.targetRoom = obj_room.pinball_1
+pinball_7_obj_doorC105835.image_xscale = 1.00
+pinball_7_obj_doorC105835.image_yscale = 1.00
+pinball_7_obj_wall105836.image_xscale = 28
+pinball_7_obj_wall105836.image_yscale = 4
+pinball_7_obj_wall105837.image_xscale = 9
+pinball_7_obj_wall105837.image_yscale = 2
+pinball_7_obj_wall105838.image_xscale = 25
+pinball_7_obj_wall105838.image_yscale = 15.00
+pinball_7_obj_wall105839.image_xscale = 17
+pinball_7_obj_wall105839.image_yscale = 2
+pinball_7_obj_sloperight105840.image_xscale = 2
+pinball_7_obj_sloperight105840.image_yscale = 2
+pinball_7_obj_sloperight105841.image_xscale = 2
+pinball_7_obj_sloperight105841.image_yscale = 2
+pinball_7_obj_wall105842.image_xscale = 20
+pinball_7_obj_wall105842.image_yscale = 6
+pinball_7_obj_wall105843.image_xscale = 6
+pinball_7_obj_wall105843.image_yscale = 10.00
+pinball_7_obj_wall105844.image_xscale = 18
+pinball_7_obj_wall105844.image_yscale = 2
+pinball_7_obj_wall105845.image_xscale = 17
+pinball_7_obj_wall105845.image_yscale = 4
+pinball_7_obj_metalblock105846.image_xscale = 1.00
+pinball_7_obj_metalblock105846.image_yscale = 1.00
+pinball_7_obj_teleporterend105847.image_xscale = 1.00
+pinball_7_obj_teleporterend105847.image_yscale = 1.00
+pinball_7_obj_teleporterend105847.trigger = 0
+pinball_7_obj_teleporter105848.image_xscale = 1.00
+pinball_7_obj_teleporter105848.image_yscale = 1.00
+pinball_7_obj_teleporter105848.trigger = 0
+pinball_7_obj_teleporter105849.image_xscale = 1.00
+pinball_7_obj_teleporter105849.image_yscale = 1.00
+pinball_7_obj_teleporter105849.trigger = 0
+pinball_7_obj_teleporter105850.image_xscale = 1.00
+pinball_7_obj_teleporter105850.image_yscale = 1.00
+pinball_7_obj_teleporter105850.trigger = 0
+pinball_7_obj_teleporter105851.image_xscale = 1.00
+pinball_7_obj_teleporter105851.image_yscale = 1.00
+pinball_7_obj_teleporter105851.trigger = 0
+pinball_7_obj_spike105852.image_xscale = 1.00
+pinball_7_obj_spike105852.image_yscale = 1.00
+pinball_7_obj_spike105853.image_xscale = 1.00
+pinball_7_obj_spike105853.image_yscale = 1.00
+pinball_7_obj_spike105854.image_xscale = 1.00
+pinball_7_obj_spike105854.image_yscale = 1.00
+pinball_7_obj_tomatoblock105855.image_xscale = 1.00
+pinball_7_obj_tomatoblock105855.image_yscale = 1.00
+pinball_7_obj_tomatoblock105856.image_xscale = 1.00
+pinball_7_obj_tomatoblock105856.image_yscale = 1.00
+pinball_7_obj_hallwayright105857.image_xscale = 2
+pinball_7_obj_hallwayright105857.image_yscale = 1.00
+pinball_7_obj_hallwayright105857.targetRoom = obj_room.pinball_8
+pinball_7_obj_doorB105858.image_xscale = 1.00
+pinball_7_obj_doorB105858.image_yscale = 1.00
+pinball_7_obj_cheeseslime105944.image_xscale = 1
+pinball_7_obj_cheeseslime105944.image_yscale = 1
+pinball_7_obj_destroyable3106030.image_xscale = 1
+pinball_7_obj_destroyable3106030.image_yscale = 1
+if (!global.panic)
+{
+obj_music.currentlyplaying = ds_list_find_value(global.musicind, ds_list_find_index(global.music, 'mu_pinball'))
+}
+}

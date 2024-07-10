@@ -1,0 +1,32 @@
+if (room == obj_room.pinball_treasure)
+{
+pinball_treasure_obj_wall106221.image_xscale = 26
+pinball_treasure_obj_wall106221.image_yscale = 2
+pinball_treasure_obj_wall106328.image_xscale = 2
+pinball_treasure_obj_wall106328.image_yscale = 14
+pinball_treasure_obj_wall106435.image_xscale = 2
+pinball_treasure_obj_wall106435.image_yscale = 14
+pinball_treasure_obj_wall106542.image_xscale = 30
+pinball_treasure_obj_wall106542.image_yscale = 2
+pinball_treasure_obj_wall106649.image_xscale = 3
+pinball_treasure_obj_wall106649.image_yscale = 2
+pinball_treasure_obj_treasure106756.image_xscale = 1
+pinball_treasure_obj_treasure106756.image_yscale = 1
+pinball_treasure_obj_glassblock106842.image_xscale = 1
+pinball_treasure_obj_glassblock106842.image_yscale = 1
+pinball_treasure_obj_wall107050.image_xscale = 8
+pinball_treasure_obj_wall107050.image_yscale = 2
+pinball_treasure_obj_platform107178.image_xscale = 3
+pinball_treasure_obj_platform107178.image_yscale = 1
+pinball_treasure_obj_ladder107285.image_xscale = 1
+pinball_treasure_obj_ladder107285.image_yscale = 5
+pinball_treasure_obj_door107392.image_xscale = 1
+pinball_treasure_obj_door107392.image_yscale = 1
+pinball_treasure_obj_door107392.targetRoom = obj_room.pinball_escape1
+pinball_treasure_obj_doorC107483.image_xscale = 1
+pinball_treasure_obj_doorC107483.image_yscale = 1
+if (!global.panic)
+{
+obj_music.currentlyplaying = ds_list_find_value(global.musicind, ds_list_find_index(global.music, 'mu_pinball'))
+}
+}
