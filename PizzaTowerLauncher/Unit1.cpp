@@ -42,7 +42,7 @@ __fastcall TLauncherForm::TLauncherForm(TComponent* Owner) : TForm(Owner)
         }
 
         TSearchRec sr;
-        if (FindFirst(GetCurrentDir() + "\\gfx\\*", faDirectory, sr) != 0)
+        if (FindFirst(GetCurrentDir() + "\\gfx\\player\\*", faDirectory, sr) != 0)
         	return;
 
 	do

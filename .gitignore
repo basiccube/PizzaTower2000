@@ -1,6 +1,7 @@
 *.exe
 *.gb1
 *.gb2
+_character.ini
 saveData.ini
 
 # C++ Builder stuff.
