@@ -3,6 +3,7 @@
 *.gb2
 _character.ini
 saveData.ini
+Thumbs.db
 
 # C++ Builder stuff.
 *.ddp
