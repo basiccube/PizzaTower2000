@@ -17,6 +17,7 @@ __published:	// IDE-managed Components
 	TLabel *InfoLabel;
 	TListBox *CharListBox;
 	TLabel *CharLabel;
+	TListBox *CharNameList;
 	void __fastcall ExitButtonClick(TObject *Sender);
 	void __fastcall StartButtonClick(TObject *Sender);
 	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);

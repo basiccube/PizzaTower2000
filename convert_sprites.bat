@@ -1,0 +1,1 @@
+for /r %%G in (*.png) do magick convert %%G -channel A -fill "#0000ffff" -threshold 50000 -background "#0000ffff" -alpha remove %%G

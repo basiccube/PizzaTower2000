@@ -3,6 +3,7 @@
 *.gb2
 _character.ini
 saveData.ini
+game_errors.log
 Thumbs.db
 
 # C++ Builder stuff.

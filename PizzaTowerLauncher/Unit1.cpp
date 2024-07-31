@@ -13,6 +13,7 @@
 #pragma resource "*.dfm"
 TLauncherForm *LauncherForm;
 TIniFile *SaveIni;
+TIniFile *CharIni;
 
 bool b_Debug = false;
 bool b_Widescreen = false;
@@ -49,7 +50,13 @@ __fastcall TLauncherForm::TLauncherForm(TComponent* Owner) : TForm(Owner)
         {
         	if (sr.Name != "." && sr.Name != "..")
                 {
-                	CharListBox->Items->Add(sr.Name);
+                	CharIni = new TIniFile(GetCurrentDir() + "\\gfx\\player\\" + sr.Name + "\\character.ini");
+                        AnsiString CharName = CharIni->ReadString("Character", "Name", "");
+                        
+                	CharListBox->Items->Add(CharName);
+                        CharNameList->Items->Add(sr.Name);
+
+                        delete CharIni;
                 }
         }
         while (FindNext(sr) == 0);
@@ -67,7 +74,7 @@ void __fastcall TLauncherForm::StartButtonClick(TObject *Sender)
 	SaveIni->WriteInteger("Option", "Widescreen", (int)b_Widescreen);
         if (CharListBox->ItemIndex != -1)
         {
-        	SaveIni->WriteString("Option", "PlayerDir", CharListBox->Items->Strings[CharListBox->ItemIndex]);
+        	SaveIni->WriteString("Option", "PlayerDir", CharNameList->Items->Strings[CharListBox->ItemIndex]);
         }
         
 	spawnlp(P_NOWAITO, s_GameExe.c_str(), s_GameExe.c_str(), NULL);

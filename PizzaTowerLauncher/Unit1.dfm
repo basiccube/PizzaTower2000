@@ -1,6 +1,6 @@
 object LauncherForm: TLauncherForm
-  Left = 194
-  Top = 569
+  Left = 198
+  Top = 637
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Pizza Tower 2000 Launcher'
@@ -14,6 +14,7 @@ object LauncherForm: TLauncherForm
   Font.Style = []
   OldCreateOrder = False
   Position = poDesktopCenter
+  Visible = True
   OnClose = FormClose
   DesignSize = (
     320
@@ -74,5 +75,15 @@ object LauncherForm: TLauncherForm
     Style = lbOwnerDrawFixed
     ItemHeight = 16
     TabOrder = 3
+  end
+  object CharNameList: TListBox
+    Left = 0
+    Top = 88
+    Width = 41
+    Height = 41
+    Style = lbOwnerDrawFixed
+    ItemHeight = 16
+    TabOrder = 4
+    Visible = False
   end
 end
