@@ -4,6 +4,7 @@
 _character.ini
 saveData.ini
 game_errors.log
+exports/
 Thumbs.db
 
 # C++ Builder stuff.
