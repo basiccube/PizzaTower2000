@@ -1,5 +1,6 @@
-ANCIENT TOWER
-11000
-3
-30
-ancient_1
+[Level]
+Name="ANCIENT TOWER"
+SRank=11000
+Minutes=3
+Seconds=30
+Room="ancient_1"

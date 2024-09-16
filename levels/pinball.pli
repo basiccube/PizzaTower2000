@@ -1,5 +1,6 @@
-SPACE PINBALL
-6000
-2
-15
-pinball_1
+[Level]
+Name="SPACE PINBALL"
+SRank=6000
+Minutes=2
+Seconds=15
+Room="pinball_1"
