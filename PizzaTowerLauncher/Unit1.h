@@ -18,10 +18,14 @@ __published:	// IDE-managed Components
 	TListBox *CharListBox;
 	TLabel *CharLabel;
 	TListBox *CharNameList;
+	TButton *SoundPackButton;
+	TCheckBox *HUDCheckbox;
 	void __fastcall ExitButtonClick(TObject *Sender);
 	void __fastcall StartButtonClick(TObject *Sender);
 	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 	void __fastcall WidescreenCheckboxClick(TObject *Sender);
+	void __fastcall SoundPackButtonClick(TObject *Sender);
+	void __fastcall HUDCheckboxClick(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TLauncherForm(TComponent* Owner);

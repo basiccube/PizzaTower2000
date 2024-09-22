@@ -6,6 +6,7 @@
 #pragma hdrstop
 
 #include "Unit1.h"
+#include "SoundPack.h"
 #include "IniFiles.hpp"
 #include "Math.hpp"
 //---------------------------------------------------------------------------
@@ -17,6 +18,7 @@ TIniFile *CharIni;
 
 bool b_Debug = false;
 bool b_Widescreen = false;
+bool b_HUD = false;
 string s_GameExe;
 
 //---------------------------------------------------------------------------
@@ -24,9 +26,12 @@ __fastcall TLauncherForm::TLauncherForm(TComponent* Owner) : TForm(Owner)
 {
         SaveIni = new TIniFile(GetCurrentDir() + "\\saveData.ini");
         double widescreeni = Ceil(SaveIni->ReadFloat("Option", "Widescreen", 0.0f));
+        double hudi = Ceil(SaveIni->ReadFloat("Option", "HUD", 0.0f));
 
         b_Widescreen = (bool)widescreeni;
         WidescreenCheckbox->Checked = b_Widescreen;
+        b_HUD = (bool)hudi;
+        HUDCheckbox->Checked = b_HUD;
 
         AnsiString exefile = GetCurrentDir() + "\\PizzaTower2000.exe";
         if (FileExists(exefile))
@@ -72,11 +77,12 @@ void __fastcall TLauncherForm::ExitButtonClick(TObject *Sender)
 void __fastcall TLauncherForm::StartButtonClick(TObject *Sender)
 {
 	SaveIni->WriteInteger("Option", "Widescreen", (int)b_Widescreen);
+        SaveIni->WriteInteger("Option", "HUD", (int)b_HUD);
         if (CharListBox->ItemIndex != -1)
         {
         	SaveIni->WriteString("Option", "PlayerDir", CharNameList->Items->Strings[CharListBox->ItemIndex]);
         }
-        
+
 	spawnlp(P_NOWAITO, s_GameExe.c_str(), s_GameExe.c_str(), NULL);
         Application->Terminate();	
 }
@@ -91,3 +97,16 @@ void __fastcall TLauncherForm::WidescreenCheckboxClick(TObject *Sender)
 	b_Widescreen = WidescreenCheckbox->Checked;
 }
 //---------------------------------------------------------------------------
+
+void __fastcall TLauncherForm::SoundPackButtonClick(TObject *Sender)
+{
+	SoundPackForm->ShowModal();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TLauncherForm::HUDCheckboxClick(TObject *Sender)
+{
+	b_HUD = HUDCheckbox->Checked;	
+}
+//---------------------------------------------------------------------------
+

@@ -1,6 +1,6 @@
 object LauncherForm: TLauncherForm
-  Left = 198
-  Top = 637
+  Left = 361
+  Top = 423
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'Pizza Tower 2000 Launcher'
@@ -85,5 +85,23 @@ object LauncherForm: TLauncherForm
     ItemHeight = 16
     TabOrder = 4
     Visible = False
+  end
+  object SoundPackButton: TButton
+    Left = 120
+    Top = 168
+    Width = 81
+    Height = 25
+    Caption = 'Sound Packs'
+    TabOrder = 5
+    OnClick = SoundPackButtonClick
+  end
+  object HUDCheckbox: TCheckBox
+    Left = 168
+    Top = 40
+    Width = 145
+    Height = 25
+    Caption = 'Enable New HUD'
+    TabOrder = 6
+    OnClick = HUDCheckboxClick
   end
 end

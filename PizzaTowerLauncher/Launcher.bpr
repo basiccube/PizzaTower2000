@@ -6,12 +6,13 @@
     <PROJECT value="Launcher.exe"/>
     <OBJFILES value="Launcher.obj Unit1.obj 
       &quot;C:\Program Files\Borland\CBuilder6\Source\vcl\inifiles.obj&quot; 
-      &quot;C:\Program Files\Borland\CBuilder6\Source\vcl\math.obj&quot; &quot;C:\Program Files\Borland\CBuilder6\Source\vcl\sysutils.obj&quot;"/>
+      &quot;C:\Program Files\Borland\CBuilder6\Source\vcl\math.obj&quot; 
+      &quot;C:\Program Files\Borland\CBuilder6\Source\vcl\sysutils.obj&quot; SoundPack.obj"/>
     <RESFILES value="Launcher.res"/>
     <IDLFILES value=""/>
     <IDLGENFILES value=""/>
     <DEFFILE value=""/>
-    <RESDEPEN value="$(RESFILES) Unit1.dfm"/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm SoundPack.dfm"/>
     <LIBFILES value=""/>
     <LIBRARIES value="bcbsmp.lib visualdbclx.lib bdecds.lib dsnap.lib cds.lib ibxpress.lib 
       vcldbx.lib bdertl.lib adortl.lib dbrtl.lib vcldb.lib rtl.lib vcl.lib"/>
@@ -59,6 +60,7 @@
       <FILE FILENAME="C:\Program Files\Borland\CBuilder6\Source\vcl\inifiles.pas" FORMNAME="" UNITNAME="IniFiles" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="C:\Program Files\Borland\CBuilder6\Source\vcl\math.pas" FORMNAME="" UNITNAME="Math" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="C:\Program Files\Borland\CBuilder6\Source\vcl\sysutils.pas" FORMNAME="" UNITNAME="SysUtils" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SoundPack.cpp" FORMNAME="SoundPackForm" UNITNAME="SoundPack" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>
@@ -68,9 +70,9 @@
 IncludeVerInfo=1
 AutoIncBuild=1
 MajorVer=1
-MinorVer=0
+MinorVer=1
 Release=0
-Build=0
+Build=1
 Debug=0
 PreRelease=0
 Special=0
@@ -82,7 +84,7 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=basiccube
 FileDescription=Pizza Tower 2000
-FileVersion=1.0.0.0
+FileVersion=1.1.0.1
 InternalName=Launcher
 LegalCopyright=Pizza Tower is made by Tour De Pizza.
 LegalTrademarks=
