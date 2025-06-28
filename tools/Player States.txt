@@ -7,7 +7,6 @@ Pizza Tower 2000 player state numbers:
 6 - boxxedpep
 8 - climbwall
 9 - knightpepslopes
-10 - portal
 11 - secondjump
 12 - chainsawbump
 13 - handstandjump
@@ -18,7 +17,6 @@ Pizza Tower 2000 player state numbers:
 18 - bombpep
 19 - grabbing
 20 - chainsawpogo
-22 - stunned
 24 - chainsaw
 25 - facestomp
 27 - timesup
@@ -37,12 +35,10 @@ Pizza Tower 2000 player state numbers:
 42 - backbreaker
 43 - parry
 45 - bossintro
-53 - smirk
 44 - pizzathrow
 46 - gameover
 83 - Sjumpland
 82 - freefallprep
-80 - runonball
 79 - boulder
 47 - keyget
 48 - tackle
