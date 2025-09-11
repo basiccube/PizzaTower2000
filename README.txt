@@ -2,7 +2,7 @@
 
 This is Pizza Tower 2000 - essentially Pizza Tower, but for much, much older systems, and also made in GameMaker 6.
 
-This ZIP file contains the following:
+This repository/ZIP file contains the following:
 * Pizza Tower 2000 itself
 * The Launcher, used for toggling widescreen mode and switching between characters
 * Pizza Builder, the level editor
@@ -10,7 +10,8 @@ This ZIP file contains the following:
 # Game doesn't open/runs in the background after launching it
 
 If you try to open Pizza Tower 2000 or Pizza Builder on Windows Vista or any newer version of Windows, it won't open and will stay running in the background until you end its process in Task Manager.
-This can be fixed by using the patching tool that is included and can be found in the tools folder. Use the tool to patch the Pizza Tower 2000 and Pizza Builder executables and then it will work properly.
+This can be fixed by using the patching tool that can be found in the tools folder when downloading one of the releases or can be downloaded here: https://www.mfgg.net/index.php?act=resdb&param=02&c=6&id=12637.
+Use the tool to patch the Pizza Tower 2000 and Pizza Builder executables and then it will work properly.
 
 The reason why I don't include the patched versions by default is because in the past I've encountered an issue where you couldn't exit the level during Pizza Time, though while I don't think that happens anymore I still don't fully trust the patch anyway.
 
