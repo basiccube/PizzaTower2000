@@ -12,3 +12,37 @@ Thumbs.db
 *.ddp
 *.obj
 *.[~]*
+
+# VC6 stuff.
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio 6 build log
+*.plg
+
+# Visual Studio 6 workspace options file
+*.opt
+
+# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+*.vbw
+
+# Visual Studio 6 workspace and project file (working project files containing files to include in project)
+*.dsw
+
+# Visual Studio 6 technical files
+*.ncb
+*.aps
